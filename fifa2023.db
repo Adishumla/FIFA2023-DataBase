@@ -1,0 +1,180 @@
+
+--teams tabel
+
+create table teams
+(
+    id int primary key,
+    team_name varchar(50) not null,
+    abbreviation varchar(3) not null,
+    wins_total int not null,
+    losses_total int not null,
+    ties_total int not null,
+    goals_total int not null,
+    conceded_goals_total int not null,
+    flag varchar(50) not null,
+    group_id int not null,
+    foreign key (group_id) references groups(id)
+)
+
+--players tabel
+create table players
+( 
+    id int identity(1,1) primary key,
+    player_first_name varchar(50) not null,
+    player_last_name varchar(50) not null,
+    player_age int not null,
+    player_position varchar(50) not null,
+    player_number int not null,
+    player_goals int not null,
+    player_assists int not null,
+    player_yellow_cards int not null,
+    player_red_cards int not null,
+    minutes_played int not null,
+    matches_played int not null,
+    team_id int not null,
+    foreign key (team_id) references teams(id)
+)
+
+--matches tabel
+create table matches
+(
+    id int identity(1,1) primary key,
+    match_date date not null,
+    match_time time not null,
+    match_location varchar(50) not null,
+    match_referee varchar(50) not null,
+    match_attendance int not null,
+    match_home_team_goals int not null,
+    match_away_team_goals int not null,
+    match_home_team_id int not null,
+    match_away_team_id int not null,
+    foreign key (match_home_team_id) references teams(id),
+    foreign key (match_away_team_id) references teams(id)
+)
+
+--goals tabel
+create table goals
+(
+    id int identity(1,1) primary key,
+    goal_minute int not null,
+    goal_scorer_id int not null,
+    goal_assist_id int not null,
+    goal_match_id int not null,
+    foreign key (goal_scorer_id) references players(id),
+    foreign key (goal_assist_id) references players(id),
+    foreign key (goal_match_id) references matches(id)
+)
+
+--cards tabel
+create table cards
+(
+    id int identity(1,1) primary key,
+    card_minute int not null,
+    card_player_id int not null,
+    card_match_id int not null,
+    card_type varchar(50) not null,
+    foreign key (card_player_id) references players(id),
+    foreign key (card_match_id) references matches(id)
+)
+
+--venues tabel
+create table venues
+(
+    id int identity(1,1) primary key,
+    venue_name varchar(50) not null,
+    venue_city varchar(50) not null,
+    venue_capacity int not null,
+    venue_opened date not null,
+    venue_team_id int not null,
+    foreign key (venue_team_id) references teams(id)
+)
+
+--coaches tabel
+create table coaches
+(
+    id int identity(1,1) primary key,
+    coach_first_name varchar(50) not null,
+    coach_last_name varchar(50) not null,
+    coach_age int not null,
+    coach_team_id int not null,
+    foreign key (coach_team_id) references teams(id)
+)
+
+--referees tabel
+create table referees
+(
+    id int identity(1,1) primary key,
+    referee_first_name varchar(50) not null,
+    referee_last_name varchar(50) not null,
+    referee_age int not null,
+    referee_country varchar(50) not null
+)
+
+
+--inserts
+insert into teams (team_name, abbreviation, wins_total, losses_total, ties_total, goals_total, conceded_goals_total, flag, group_id)
+values ('Russia', 'RUS', 5, 0, 0, 12, 2, 'https://upload.wikimedia.org/wikipedia/en/f/f3/Flag_of_Russia.svg', 1),
+       ('Saudi Arabia', 'KSA', 0, 5, 0, 2, 12, 'https://upload.wikimedia.org/wikipedia/commons/0/0d/Flag_of_Saudi_Arabia.svg', 1),
+       ('Egypt', 'EGY', 1, 2, 1, 5, 5, 'https://upload.wikimedia.org/wikipedia/commons/f/fe/Flag_of_Egypt.svg', 1),
+       ('Uruguay', 'URU', 3, 1, 0, 6, 3, 'https://upload.wikimedia.org/wikipedia/commons/f/fe/Flag_of_Egypt.svg', 1),
+       ('Portugal', 'POR', 3, 0, 1, 7, 2, 'https://upload.wikimedia.org/wikipedia/commons/5/5c/Flag_of_Portugal.svg', 2),
+       ('Spain', 'ESP', 3, 0, 1, 6, 1, 'https://upload.wikimedia.org/wikipedia/en/9/9a/Flag_of_Spain.svg', 2),
+       ('Morocco', 'MAR', 0, 2, 2, 2, 5, 'https://upload.wikimedia.org/wikipedia/commons/2/2c/Flag_of_Morocco.svg', 2),
+       ('Iran', 'IRN', 1, 1, 2, 4, 4, 'https://upload.wikimedia.org/wikipedia/commons/c/ca/Flag_of_Iran.svg', 2),
+       ('France', 'FRA', 3, 0, 1, 7, 2, 'https://upload.wikimedia.org/wikipedia/en/c/c3/Flag_of_France.svg', 3),
+       ('Australia', 'AUS', 1, 1, 2, 4, 4, 'https://upload.wikimedia.org/wikipedia/commons/8/88/Flag_of_Australia_%28converted%29.svg', 3),
+       ('Peru', 'PER', 1, 1, 2, 4, 4, 'https://upload.wikimedia.org/wikipedia/commons/c/cf/Flag_of_Peru.svg', 3),
+       ('Denmark', 'DEN', 1, 1, 2, 4, 4, 'https://upload.wikimedia.org/wikipedia/commons/9/9c/Flag_of_Denmark.svg', 3),
+       ('Argentina', 'ARG', 3, 0, 1, 7, 2, 'https://upload.wikimedia.org/wikipedia/commons/1/1a/Flag_of_Argentina.svg', 4),
+       ('Iceland', 'ISL', 1, 1, 2, 4, 4, 'https://upload.wikimedia.org/wikipedia/commons/c/ce/Flag_of_Iceland.svg', 4),
+       ('Croatia', 'CRO', 1, 1, 2, 4, 4, 'https://upload.wikimedia.org/wikipedia/commons/1/1b/Flag_of_Croatia.svg', 4),
+       ('Nigeria', 'NGA', 1, 1, 2, 4, 4, 'https://upload.wikimedia.org/wikipedia/commons/7/79/Flag_of_Nigeria.svg', 4),
+       ('Brazil', 'BRA', 3, 0, 1, 7, 2, 'https://upload.wikimedia.org/wikipedia/en/0/05/Flag_of_Brazil.svg', 5),
+       ('Switzerland', 'SUI', 1, 1, 2, 4, 4, 'https://upload.wikimedia.org/wikipedia/commons/0/08/Flag_of_Switzerland_%28Pantone%29.svg', 5),
+       ('Costa Rica', 'CRC', 1, 1, 2, 4, 4, 'https://upload.wikimedia.org/wikipedia/commons/b/bc/Flag_of_Costa_Rica.svg', 5),
+       ('Serbia', 'SRB', 1, 1, 2, 4, 4, 'https://upload.wikimedia.org/wikipedia/commons/f/ff/Flag_of_Serbia.svg', 5),
+    )
+
+insert into players (player_first_name, player_last_name, player_age, player_country, team_id, player_position, player_goals, player_assists, player_yellow_cards, player_red_cards, player_matches, player_minutes)
+values
+        --Russia
+       ('Igor', 'Akinfeev', 32, 'Russia', 1, 'Goalkeeper', 0, 0, 0, 0, 5, 450),
+       ('Vladimir', 'Gabulov', 32, 'Russia', 1, 'Goalkeeper', 0, 0, 0, 0, 5, 450),
+       ('Andrei', 'Lunev', 32, 'Russia', 1, 'Goalkeeper', 0, 0, 0, 0, 5, 450),
+       ('Sergey', 'Ignashevich', 32, 'Russia', 1, 'Defender', 0, 0, 0, 0, 5, 450),
+       ('Igor', 'Smolnikov', 32, 'Russia', 1, 'Defender', 0, 0, 0, 0, 5, 450),
+       ('Vasili', 'Berezutski', 32, 'Russia', 1, 'Defender', 0, 0, 0, 0, 5, 450),
+       ('Fedor', 'Kudryashov', 32, 'Russia', 1, 'Defender', 0, 0, 0, 0, 5, 450),
+       ('Ilya', 'Zabarnyi', 32, 'Russia', 1, 'Defender', 0, 0, 0, 0, 5, 450),
+       ('Viktor', 'Vasin', 32, 'Russia', 1, 'Defender', 0, 0, 0, 0, 5, 450),
+       ('Dmitri', 'Kombarov', 32, 'Russia', 1, 'Defender', 0, 0, 0, 0, 5, 450),
+       ('Dmitri', 'Poloz', 32, 'Russia', 1, 'Defender', 0, 0, 0, 0, 5, 450),
+       ('Vladimir', 'Granat', 32, 'Russia', 1, 'Defender', 0, 0, 0, 0, 5, 450),
+       ('Aleksandr', 'Samedov', 32, 'Russia', 1, 'Midfielder', 0, 0, 0, 0, 5, 450),
+       --Saudi Arabia
+         ('Mohammed', 'Al-Owais', 32, 'Saudi Arabia', 2, 'Goalkeeper', 0, 0, 0, 0, 5, 450),
+         ('Abdullah', 'Al-Mayouf', 32, 'Saudi Arabia', 2, 'Goalkeeper', 0, 0, 0, 0, 5, 450),
+         ('Yasser', 'Al-Mosailem', 32, 'Saudi Arabia', 2, 'Goalkeeper', 0, 0, 0, 0, 5, 450),
+         ('Yasser', 'Al-Shahrani', 32, 'Saudi Arabia', 2, 'Defender', 0, 0, 0, 0, 5, 450),
+         ('Osama', 'Hawsawi', 32, 'Saudi Arabia', 2, 'Defender', 0, 0, 0, 0, 5, 450),
+         ('Mansoor', 'Al-Harbi', 32, 'Saudi Arabia', 2, 'Defender', 0, 0, 0, 0, 5, 450),
+         ('Yasser', 'Al-Mosailem', 32, 'Saudi Arabia', 2, 'Defender', 0, 0, 0, 0, 5, 450),
+         ('Mohammed', 'Al-Breik', 32, 'Saudi Arabia', 2, 'Defender', 0, 0, 0, 0, 5, 450),
+         ('Hatan', 'Bahbir', 32, 'Saudi Arabia', 2, 'Defender', 0, 0, 0, 0, 5, 450),
+         ('Mansoor', 'Al-Harbi', 32, 'Saudi Arabia', 2, 'Defender', 0, 0, 0, 0, 5, 450),
+         ('Taisir', 'Al-Jassim', 32, 'Saudi Arabia', 2, 'Defender', 0, 0, 0, 0, 5, 450),
+         ('Mohammed', 'Al-Sahlawi', 32, 'Saudi Arabia', 2, 'Midfielder', 0, 0, 0, 0, 5, 450),
+         --Spain
+            ('David', 'De Gea', 32, 'Spain', 3, 'Goalkeeper', 0, 0, 0, 0, 5, 450),
+            ('Pepe', 'Reina', 32, 'Spain', 3, 'Goalkeeper', 0, 0, 0, 0, 5, 450),
+            ('Kepa', 'Arrizabalaga', 32, 'Spain', 3, 'Goalkeeper', 0, 0, 0, 0, 5, 450),
+            ('Dani', 'Carvajal', 32, 'Spain', 3, 'Defender', 0, 0, 0, 0, 5, 450),
+            ('Sergio', 'Ramos', 32, 'Spain', 3, 'Defender', 0, 0, 0, 0, 5, 450),
+            ('Gerard', 'Pique', 32, 'Spain', 3, 'Defender', 0, 0, 0, 0, 5, 450),
+            ('Cesar', 'Azpilicueta', 32, 'Spain', 3, 'Defender', 0, 0, 0, 0, 5, 450),
+            ('Sergio', 'Busquets', 32, 'Spain', 3, 'Defender', 0, 0, 0, 0, 5, 450),
+            ('Jordi', 'Alba', 32, 'Spain', 3, 'Defender', 0, 0, 0, 0, 5, 450),
+            ('Sergio', 'Roberto', 32, 'Spain', 3, 'Defender', 0, 0, 0, 0, 5, 450),
+            ('Andres', 'Iniesta', 32, 'Spain', 3, 'Midfielder', 0, 0, 0, 0, 5, 450),
+            ('David', 'Silva', 32, 'Spain', 3, 'Midfielder', 0, 0, 0, 0, 5, 450)
+
