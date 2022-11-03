@@ -40,7 +40,8 @@ create table matches
 (
     id int identity(1,1) primary key,
     match_date date not null,
-    match_time time not null,
+    match_leanght int not null,
+    match_penalty bit not null,
     match_location varchar(50) not null,
     match_referee varchar(50) not null,
     match_attendance int not null,
