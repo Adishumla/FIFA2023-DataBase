@@ -10,7 +10,7 @@ create table teams
     ties_total int not null,
     goals_total int not null,
     conceded_goals_total int not null,
-    flag varchar(50) not null,
+    flag varchar(50) not null
 )
 
 --players tabel
