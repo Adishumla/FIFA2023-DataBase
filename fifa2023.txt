@@ -1,6 +1,5 @@
 
 --teams tabel
-
 create table teams
 (
     id int primary key,
@@ -22,7 +21,6 @@ create table players
     id int identity(1,1) primary key,
     player_first_name varchar(50) not null,
     player_last_name varchar(50) not null,
-    player_age int not null,
     player_position varchar(50) not null,
     player_number int not null,
     player_goals int not null,
@@ -31,6 +29,7 @@ create table players
     player_red_cards int not null,
     minutes_played int not null,
     matches_played int not null,
+    mathes_started int not null,
     team_id int not null,
     foreign key (team_id) references teams(id)
 )
@@ -42,10 +41,15 @@ create table matches
     match_date date not null,
     match_time time not null,
     match_leanght int not null,
+    group_name varchar(50),
+    match_type varchar(50) not null,
+    match_concluded_by varchar(50) not null,
     match_penalty bit not null,
     match_location varchar(50) not null,
-    match_referee varchar(50) not null,
+    match_head_referee varchar(50) not null,
     match_attendance int not null,
+    match_home_team_shot int not null,
+    match_away_team_shot int not null,
     match_home_team_goals int not null,
     match_away_team_goals int not null,
     match_home_team_id int not null,
@@ -86,7 +90,6 @@ create table venues
     venue_name varchar(50) not null,
     venue_city varchar(50) not null,
     venue_capacity int not null,
-    venue_opened date not null,
     venue_team_id int not null,
     foreign key (venue_team_id) references teams(id)
 )
@@ -97,7 +100,6 @@ create table coaches
     id int identity(1,1) primary key,
     coach_first_name varchar(50) not null,
     coach_last_name varchar(50) not null,
-    coach_age int not null,
     coach_team_id int not null,
     foreign key (coach_team_id) references teams(id)
 )
