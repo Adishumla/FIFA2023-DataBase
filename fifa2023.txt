@@ -113,38 +113,36 @@ create table referees
 );
 
 
---inserts
+--Code Awnsers
+List all games today = select * from matches where match_date = '2023-08-05'
 
---teams
-insert into teams (id, team_name, abbreviation, wins_total, losses_total, ties_total, goals_total, conceded_goals_total, flag) values (1, 'Brazil', 'BR', 1, 4, 0, 20, 6, 'Czech Republic');
-insert into teams (id, team_name, abbreviation, wins_total, losses_total, ties_total, goals_total, conceded_goals_total, flag) values (2, 'Sri Lanka', 'LK', 6, 5, 0, 20, 0, 'Brazil');
-insert into teams (id, team_name, abbreviation, wins_total, losses_total, ties_total, goals_total, conceded_goals_total, flag) values (3, 'China', 'CN', 3, 5, 1, 14, 6, 'Vietnam');
-insert into teams (id, team_name, abbreviation, wins_total, losses_total, ties_total, goals_total, conceded_goals_total, flag) values (4, 'Sweden', 'SE', 0, 5, 0, 13, 13, 'Germany');
-insert into teams (id, team_name, abbreviation, wins_total, losses_total, ties_total, goals_total, conceded_goals_total, flag) values (5, 'Czech Republic', 'CZ', 0, 0, 0, 14, 8, 'Sweden');
-insert into teams (id, team_name, abbreviation, wins_total, losses_total, ties_total, goals_total, conceded_goals_total, flag) values (6, 'Philippines', 'PH', 3, 0, 1, 10, 19, 'China');
-insert into teams (id, team_name, abbreviation, wins_total, losses_total, ties_total, goals_total, conceded_goals_total, flag) values (7, 'Brazil', 'BR', 0, 6, 0, 5, 13, 'Ukraine');
-insert into teams (id, team_name, abbreviation, wins_total, losses_total, ties_total, goals_total, conceded_goals_total, flag) values (8, 'Kazakhstan', 'KZ', 0, 4, 0, 16, 6, 'Philippines');
-insert into teams (id, team_name, abbreviation, wins_total, losses_total, ties_total, goals_total, conceded_goals_total, flag) values (9, 'Indonesia', 'ID', 0, 6, 1, 18, 16, 'China');
-insert into teams (id, team_name, abbreviation, wins_total, losses_total, ties_total, goals_total, conceded_goals_total, flag) values (10, 'Philippines', 'PH', 1, 1, 1, 9, 18, 'Democratic Republic of the Congo');
-insert into teams (id, team_name, abbreviation, wins_total, losses_total, ties_total, goals_total, conceded_goals_total, flag) values (11, 'Brazil', 'BR', 5, 0, 1, 19, 2, 'Mexico');
-insert into teams (id, team_name, abbreviation, wins_total, losses_total, ties_total, goals_total, conceded_goals_total, flag) values (12, 'Philippines', 'PH', 2, 5, 0, 5, 14, 'Nigeria');
-insert into teams (id, team_name, abbreviation, wins_total, losses_total, ties_total, goals_total, conceded_goals_total, flag) values (13, 'Argentina', 'AR', 6, 2, 1, 13, 6, 'Bulgaria');
-insert into teams (id, team_name, abbreviation, wins_total, losses_total, ties_total, goals_total, conceded_goals_total, flag) values (14, 'South Africa', 'ZA', 0, 3, 1, 10, 15, 'Denmark');
-insert into teams (id, team_name, abbreviation, wins_total, losses_total, ties_total, goals_total, conceded_goals_total, flag) values (15, 'China', 'CN', 1, 5, 0, 11, 8, 'Philippines');
-insert into teams (id, team_name, abbreviation, wins_total, losses_total, ties_total, goals_total, conceded_goals_total, flag) values (16, 'Argentina', 'AR', 3, 5, 1, 8, 12, 'Peru');
-insert into teams (id, team_name, abbreviation, wins_total, losses_total, ties_total, goals_total, conceded_goals_total, flag) values (17, 'Norway', 'NO', 3, 4, 1, 6, 10, 'Serbia');
-insert into teams (id, team_name, abbreviation, wins_total, losses_total, ties_total, goals_total, conceded_goals_total, flag) values (18, 'Czech Republic', 'CZ', 4, 0, 1, 20, 8, 'Cameroon');
-insert into teams (id, team_name, abbreviation, wins_total, losses_total, ties_total, goals_total, conceded_goals_total, flag) values (19, 'Poland', 'PL', 5, 1, 1, 4, 7, 'Brazil');
-insert into teams (id, team_name, abbreviation, wins_total, losses_total, ties_total, goals_total, conceded_goals_total, flag) values (20, 'Malaysia', 'MY', 5, 1, 0, 14, 2, 'China');
-insert into teams (id, team_name, abbreviation, wins_total, losses_total, ties_total, goals_total, conceded_goals_total, flag) values (21, 'Honduras', 'HN', 4, 2, 0, 15, 1, 'Portugal');
-insert into teams (id, team_name, abbreviation, wins_total, losses_total, ties_total, goals_total, conceded_goals_total, flag) values (22, 'Indonesia', 'ID', 6, 4, 1, 14, 7, 'Philippines');
-insert into teams (id, team_name, abbreviation, wins_total, losses_total, ties_total, goals_total, conceded_goals_total, flag) values (23, 'China', 'CN', 4, 2, 1, 8, 9, 'Marshall Islands');
-insert into teams (id, team_name, abbreviation, wins_total, losses_total, ties_total, goals_total, conceded_goals_total, flag) values (24, 'Philippines', 'PH', 5, 2, 0, 0, 1, 'China');
-insert into teams (id, team_name, abbreviation, wins_total, losses_total, ties_total, goals_total, conceded_goals_total, flag) values (25, 'Thailand', 'TH', 1, 1, 1, 0, 9, 'Palestinian Territory');
-insert into teams (id, team_name, abbreviation, wins_total, losses_total, ties_total, goals_total, conceded_goals_total, flag) values (26, 'Uzbekistan', 'UZ', 6, 5, 1, 20, 3, 'Philippines');
-insert into teams (id, team_name, abbreviation, wins_total, losses_total, ties_total, goals_total, conceded_goals_total, flag) values (27, 'Russia', 'RU', 3, 5, 0, 20, 20, 'Indonesia');
-insert into teams (id, team_name, abbreviation, wins_total, losses_total, ties_total, goals_total, conceded_goals_total, flag) values (28, 'China', 'CN', 1, 2, 0, 20, 10, 'China');
-insert into teams (id, team_name, abbreviation, wins_total, losses_total, ties_total, goals_total, conceded_goals_total, flag) values (29, 'United States', 'US', 5, 1, 0, 1, 0, 'Australia');
-insert into teams (id, team_name, abbreviation, wins_total, losses_total, ties_total, goals_total, conceded_goals_total, flag) values (30, 'France', 'FR', 1, 3, 0, 3, 14, 'Poland');
-insert into teams (id, team_name, abbreviation, wins_total, losses_total, ties_total, goals_total, conceded_goals_total, flag) values (31, 'Sweden', 'SE', 0, 0, 0, 8, 13, 'Ukraine');
-insert into teams (id, team_name, abbreviation, wins_total, losses_total, ties_total, goals_total, conceded_goals_total, flag) values (32, 'Sweden', 'SE', 2, 6, 0, 6, 9, 'Indonesia');
+List a team’s matches and results. = 
+
+List a group table with teams, wins, draws, losses, goal difference and points.
+
+List the top-10 players sorted first by goals, then by assists
+
+List all players that are unavailable due to disciplinary reasons (i.e 2 yellow cards or 1 red card)
+
+List a teams roster with players and coach, goals, assists, shots and disciplinary, matches played, matches started, minutes played. Number of clean sheets and save percentage for the goalkeepers.
+
+Detailed info for a finished game including teams, players, goals, disciplinary, substitutions, referee, venue, date. Every situation often includes one or more players, a time and sometimes additional info
+
+Short info (teams, flags, abbreviations, score) for the same game as above.
+
+List the playoff tree with team abbreviations and -flags, score (if any)/date and time if no result.
+
+-- python code 
+
+# update tables with red and yellow cards
+import pandas as pd
+
+df = pd.read_csv("../csv/cards.csv")
+
+# update card_type column with yellow randomly to 15% of the rows
+df.loc[df.sample(frac=0.15).index, "card_type"] = "yellow"
+# update card_type column with red randomly to 7% of the rows
+df.loc[df.sample(frac=0.07).index, "card_type"] = "red"
+
+df.to_csv("../csv/cards.csv", index=False)
+
