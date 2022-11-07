@@ -1,0 +1,737 @@
+id,player_first_name,player_last_name,player_position,player_number,player_goals,player_assists,minutes_played,matches_played,matches_started,team_id
+1,Dodie,Harrap,Right Fullback,1,1,0,270,3,3,1
+2,Aili,Porritt,Left Fullback,2,0,1,270,3,3,1
+3,Alexia,Pamphilon,Center Back,3,0,0,270,3,3,1
+4,Mavra,Webberley,Center Back,4,0,0,270,3,3,1
+5,Lynnell,Probet,Defending,5,0,0,270,3,3,1
+6,Papagena,Clackson,Right Midfielder,6,0,0,270,3,3,1
+7,Mirelle,Powell,Central,7,0,0,270,3,3,1
+8,Margie,Witham,Striker,8,0,0,270,3,3,1
+9,Kali,Devericks,Attacking Midfielder,9,0,0,270,3,3,1
+10,Mandi,Duffil,Left Midfielder,10,0,0,270,3,3,1
+11,Sibbie,Madgewick,Center Back,11,0,0,270,3,3,1
+12,Coretta,Seivertsen,Center Back,12,0,0,0,0,0,1
+13,Aila,Arpur,Goalkeeper,13,0,0,0,0,0,1
+14,Cal,McConway,Right Fullback,14,0,0,0,0,0,1
+15,Zahara,Enderlein,Left Fullback,15,0,0,0,0,0,1
+16,Wallie,Jenne,Defending,16,0,0,0,0,0,1
+17,Jyoti,Elms,Right Midfielder,17,0,0,0,0,0,1
+18,Jacklyn,Odhams,Central,18,0,0,0,0,0,1
+19,Luci,O Mullen,Striker,19,0,0,0,0,0,1
+20,Penelope,Chazelas,Attacking Midfielder,20,0,0,0,0,0,1
+21,Andeee,Hardway,Left Midfielder,21,0,0,0,0,0,1
+22,Selena,Adderley,Central,22,0,0,0,0,0,1
+23,Stepha,Welfare,Goalkeeper,23,0,0,0,0,0,1
+24,Noelyn,Joe,Right Fullback,1,1,0,360,4,4,2
+25,Bethany,Ong,Left Fullback,2,1,1,360,4,4,2
+26,Gilbertina,Websdale,Center Back,3,0,1,360,4,4,2
+27,Heda,Armiger,Center Back,4,0,0,360,4,4,2
+28,Blisse,Daile,Defending,5,0,0,360,4,4,2
+29,Edna,Chapell,Right Midfielder,6,0,0,360,4,4,2
+30,Dulciana,Hullbrook,Central,7,0,0,360,4,4,2
+31,Dorthea,Ciccetti,Striker,8,0,0,360,4,4,2
+32,Marga,Haile,Attacking Midfielder,9,0,0,360,4,4,2
+33,Helene,Edel,Left Midfielder,10,0,0,360,4,4,2
+34,Matti,Glencross,Center Back,11,0,0,360,4,4,2
+35,Arline,Snartt,Center Back,12,0,0,0,0,0,2
+36,Jacquie,de Savery,Goalkeeper,13,0,0,0,0,0,2
+37,Cherin,McInulty,Right Fullback,14,0,0,0,0,0,2
+38,Lesly,Iacovacci,Left Fullback,15,0,0,0,0,0,2
+39,Guenevere,Pettigrew,Defending,16,0,0,0,0,0,2
+40,Darci,Ivimy,Right Midfielder,17,0,0,0,0,0,2
+41,Georgie,Guiett,Central,18,0,0,0,0,0,2
+42,Rodina,Lindeberg,Striker,19,0,0,0,0,0,2
+43,Austina,Romaines,Attacking Midfielder,20,0,0,0,0,0,2
+44,Nananne,Bartholin,Left Midfielder,21,0,0,0,0,0,2
+45,Reiko,Sebborn,Central,22,0,0,0,0,0,2
+46,Willyt,Richford,Goalkeeper,23,0,0,0,0,0,2
+47,Cyb,Niessen,Right Fullback,1,0,0,0,3,3,3
+48,Nelie,Edgars,Left Fullback,2,0,0,0,3,3,3
+49,Merla,Lytton,Center Back,3,0,0,0,3,3,3
+50,Belle,Bendik,Center Back,4,0,0,0,3,3,3
+51,Marin,Tineman,Defending,5,0,0,0,3,3,3
+52,Penny,Jorioz,Right Midfielder,6,0,0,0,3,3,3
+53,Marcelia,Garbert,Central,7,0,0,0,3,3,3
+54,Kellen,Bickerdyke,Striker,8,0,0,0,3,3,3
+55,Dianne,Shirley,Attacking Midfielder,9,0,0,0,3,3,3
+56,Janela,Wais,Left Midfielder,10,0,0,0,3,3,3
+57,Susannah,Calafato,Center Back,11,0,0,0,3,3,3
+58,Catlaina,Flucker,Center Back,12,0,0,0,0,0,3
+59,Beryl,Stelfox,Goalkeeper,13,0,0,0,0,0,3
+60,Viole,Back,Right Fullback,14,0,0,0,0,0,3
+61,Candis,Vaughan,Left Fullback,15,0,0,0,0,0,3
+62,Clovis,Freiburger,Defending,16,0,0,0,0,0,3
+63,Roxy,M'cowis,Right Midfielder,17,0,0,0,0,0,3
+64,Bamby,Durand,Central,18,0,0,0,0,0,3
+65,Goldina,Stannas,Striker,19,0,0,0,0,0,3
+66,Fayina,Seman,Attacking Midfielder,20,0,0,0,0,0,3
+67,Babara,Seary,Left Midfielder,21,0,0,0,0,0,3
+68,Liliane,Diegan,Central,22,0,0,0,0,0,3
+69,Marianne,Osgordby,Goalkeeper,23,0,0,0,0,0,3
+70,Rora,Catley,Right Fullback,1,2,0,660,7,7,4
+71,Sherie,Taffe,Left Fullback,2,3,1,660,7,7,4
+72,Lita,Gillhespy,Center Back,3,1,1,660,7,7,4
+73,Rey,Mabson,Center Back,4,1,1,660,7,7,4
+74,Ellynn,Tesimon,Defending,5,0,3,660,7,7,4
+75,Delphine,Kee,Right Midfielder,6,0,1,660,7,7,4
+76,Beverie,Sibery,Central,7,0,0,660,7,7,4
+77,Ciel,Longmire,Striker,8,0,0,660,7,7,4
+78,Beverlee,Farre,Attacking Midfielder,9,0,0,660,7,7,4
+79,Muire,Lambourn,Left Midfielder,10,0,0,660,7,7,4
+80,Pam,Creavan,Center Back,11,0,0,630,7,7,4
+81,Britt,Geroldo,Center Back,12,0,0,30,1,0,4
+82,Ivonne,Paolino,Goalkeeper,13,0,0,0,0,0,4
+83,Maryl,Arnet,Right Fullback,14,0,0,0,0,0,4
+84,Cosetta,Mathwen,Left Fullback,15,0,0,0,0,0,4
+85,Claudine,Samsin,Defending,16,0,0,0,0,0,4
+86,Melisse,Waghorne,Right Midfielder,17,0,0,0,0,0,4
+87,Livvyy,Lerohan,Central,18,0,0,0,0,0,4
+88,Ainslie,Holligan,Striker,19,0,0,0,0,0,4
+89,Myranda,Brewers,Attacking Midfielder,20,0,0,0,0,0,4
+90,Cecelia,Cawsy,Left Midfielder,21,0,0,0,0,0,4
+91,Starr,Sprigging,Central,22,0,0,0,0,0,4
+92,Jocelyne,Carss,Goalkeeper,23,0,0,0,0,0,4
+93,Lilia,Beggio,Right Fullback,1,1,0,270,3,3,5
+94,Felicle,Fronzek,Left Fullback,2,0,1,270,3,3,5
+95,Vivyanne,Fissenden,Center Back,3,0,0,270,3,3,5
+96,Viola,Veness,Center Back,4,0,0,270,3,3,5
+97,Gerrie,Dumbrall,Defending,5,0,0,270,3,3,5
+98,Florenza,Windmill,Right Midfielder,6,0,0,270,3,3,5
+99,Hali,Arent,Central,7,0,0,270,3,3,5
+100,Clarissa,O'Dogherty,Striker,8,0,0,270,3,3,5
+101,Johnath,Heap,Attacking Midfielder,9,0,0,270,3,3,5
+102,Danyette,Codman,Left Midfielder,10,0,0,270,3,3,5
+103,Gunilla,Wethey,Center Back,11,0,0,270,3,3,5
+104,Brittani,Batchelder,Center Back,12,0,0,0,0,0,5
+105,Christean,Caslin,Goalkeeper,13,0,0,0,0,0,5
+106,Tiffani,Marchington,Right Fullback,14,0,0,0,0,0,5
+107,Greer,Waison,Left Fullback,15,0,0,0,0,0,5
+108,Vina,Carnilian,Defending,16,0,0,0,0,0,5
+109,Christabella,Alderson,Right Midfielder,17,0,0,0,0,0,5
+110,Elli,Chalice,Central,18,0,0,0,0,0,5
+111,Cassondra,Bazely,Striker,19,0,0,0,0,0,5
+112,Deonne,Sutcliff,Attacking Midfielder,20,0,0,0,0,0,5
+113,Rita,Outlaw,Left Midfielder,21,0,0,0,0,0,5
+114,Serene,Cummine,Central,22,0,0,0,0,0,5
+115,Ernestine,Branigan,Goalkeeper,23,0,0,0,0,0,5
+116,Amalee,Marousek,Right Fullback,1,1,0,360,4,4,6
+117,Dorella,O'Hoey,Left Fullback,2,1,0,360,4,4,6
+118,Seline,Treske,Center Back,3,0,1,360,4,4,6
+119,Korie,Lymbourne,Center Back,4,0,1,360,4,4,6
+120,Heddi,Sallarie,Defending,5,0,0,360,4,4,6
+121,Julee,Lody,Right Midfielder,6,0,0,360,4,4,6
+122,Tiphani,Dacres,Central,7,0,0,360,4,4,6
+123,Yasmin,Bleibaum,Striker,8,0,0,360,4,4,6
+124,Diena,Francescozzi,Attacking Midfielder,9,0,0,360,4,4,6
+125,Noellyn,Yacob,Left Midfielder,10,0,0,360,4,4,6
+126,Querida,O'Garmen,Center Back,11,0,0,360,4,4,6
+127,Sophey,Highman,Center Back,12,0,0,0,0,0,6
+128,Trista,Ellissen,Goalkeeper,13,0,0,0,0,0,6
+129,Annabel,Shelbourne,Right Fullback,14,0,0,0,0,0,6
+130,Kalindi,Rack,Left Fullback,15,0,0,0,0,0,6
+131,Tiphanie,Ellin,Defending,16,0,0,0,0,0,6
+132,Storm,Champley,Right Midfielder,17,0,0,0,0,0,6
+133,Ernesta,Bullock,Central,18,0,0,0,0,0,6
+134,Brittney,Peal,Striker,19,0,0,0,0,0,6
+135,Celine,Caudray,Attacking Midfielder,20,0,0,0,0,0,6
+136,Deanne,Bastone,Left Midfielder,21,0,0,0,0,0,6
+137,Morganica,Hassett,Central,22,0,0,0,0,0,6
+138,Alix,Byrkmyr,Goalkeeper,23,0,0,0,0,0,6
+139,Fidela,Lound,Right Fullback,1,2,0,450,5,5,7
+140,Monah,Messruther,Left Fullback,2,2,0,450,5,5,7
+141,Georgianne,Summerlad,Center Back,3,0,2,450,5,5,7
+142,Joellyn,Allom,Center Back,4,0,2,450,5,5,7
+143,Brigida,Chance,Defending,5,0,0,450,5,5,7
+144,Greer,Kitchingman,Right Midfielder,6,0,0,450,5,5,7
+145,Malissia,Skones,Central,7,0,0,450,5,5,7
+146,Rosene,Boatwright,Striker,8,0,0,450,5,5,7
+147,Sela,Sumers,Attacking Midfielder,9,0,0,450,5,5,7
+148,Lorie,Dalrymple,Left Midfielder,10,0,0,450,5,5,7
+149,Therine,Sweetsur,Center Back,11,0,0,450,5,5,7
+150,Editha,Harman,Center Back,12,0,0,0,0,0,7
+151,Almeta,Boutton,Goalkeeper,13,0,0,0,0,0,7
+152,Pavla,Hulke,Right Fullback,14,0,0,0,0,0,7
+153,Coraline,Searl,Left Fullback,15,0,0,0,0,0,7
+154,Ophelie,Hails,Defending,16,0,0,0,0,0,7
+155,Shea,Gouinlock,Right Midfielder,17,0,0,0,0,0,7
+156,Ellissa,Deny,Central,18,0,0,0,0,0,7
+157,Clarice,Starkie,Striker,19,0,0,0,0,0,7
+158,Trudey,Winnard,Attacking Midfielder,20,0,0,0,0,0,7
+159,Leonanie,Bamb,Left Midfielder,21,0,0,0,0,0,7
+160,Berny,Yvon,Central,22,0,0,0,0,0,7
+161,Cherie,Pelzer,Goalkeeper,23,0,0,270,3,3,8
+162,Estele,Justice,Right Fullback,1,0,0,270,3,3,8
+163,Andra,Havik,Left Fullback,2,0,0,270,3,3,8
+164,Daffy,Wilds,Center Back,3,0,0,270,3,3,8
+165,Bibi,Bohin,Center Back,4,0,0,270,3,3,8
+166,Lucy,Orleton,Defending,5,0,0,270,3,3,8
+167,Mommy,Grinyov,Right Midfielder,6,0,0,270,3,3,8
+168,Emmey,Mellings,Central,7,0,0,270,3,3,8
+169,Mozelle,Balint,Striker,8,0,0,270,3,3,8
+170,Dulcy,MacKeever,Attacking Midfielder,9,0,0,270,3,3,8
+171,Ardene,Dict,Left Midfielder,10,0,0,270,3,3,8
+172,Annalee,Boyet,Center Back,11,0,0,270,3,3,8
+173,Myra,Chesnut,Center Back,12,0,0,0,0,0,8
+174,Gerta,Rofe,Goalkeeper,13,0,0,0,0,0,8
+175,Cassandry,Eshmade,Right Fullback,14,0,0,0,0,0,8
+176,Rayna,Richmont,Left Fullback,15,0,0,0,0,0,8
+177,Mia,Courtier,Defending,16,0,0,0,0,0,8
+178,Cindy,Krysztofowicz,Right Midfielder,17,0,0,0,0,0,8
+179,Carolyn,Jekel,Central,18,0,0,0,0,0,8
+180,Merrile,Bambrugh,Striker,19,0,0,0,0,0,8
+181,Elianora,Rizzillo,Attacking Midfielder,20,0,0,0,0,0,8
+182,Kordula,Bedome,Left Midfielder,21,0,0,0,0,0,8
+183,Darsie,de Zamora,Central,22,0,0,0,0,0,8
+184,Wilone,Dunckley,Goalkeeper,23,0,0,0,0,0,8
+185,Robenia,Di Bartolommeo,Right Fullback,1,1,0,450,5,5,9
+186,Lori,Lofts,Left Fullback,2,1,1,450,5,5,9
+187,Fina,Immings,Center Back,3,1,0,450,5,5,9
+188,Eolanda,Rittmeier,Center Back,4,1,0,450,5,5,9
+189,Rosalynd,Aspital,Defending,5,0,0,450,5,5,9
+190,Darsie,Menloe,Right Midfielder,6,0,1,450,5,5,9
+191,Nollie,Overshott,Central,7,0,1,450,5,5,9
+192,Denny,Yitzovicz,Striker,8,0,1,450,5,5,9
+193,Quintina,Lynagh,Attacking Midfielder,9,0,0,450,5,5,9
+194,Colleen,Simms,Left Midfielder,10,0,0,450,5,5,9
+195,Jenna,Minto,Center Back,11,0,0,450,5,5,9
+196,Emili,Bosenworth,Center Back,12,0,0,0,0,0,9
+197,Elmira,Amburgy,Goalkeeper,13,0,0,0,0,0,9
+198,Reina,Witherden,Right Fullback,14,0,0,0,0,0,9
+199,Leilah,Klus,Left Fullback,15,0,0,0,0,0,9
+200,Barbara,Breakspear,Defending,16,0,0,0,0,0,9
+201,Ranique,Maeer,Right Midfielder,17,0,0,0,0,0,9
+202,Flossi,Ostler,Central,18,0,0,0,0,0,9
+203,Karissa,Pryke,Striker,19,0,0,0,0,0,9
+204,Bertina,Mattedi,Attacking Midfielder,20,0,0,0,0,0,9
+205,Etheline,Cotte,Left Midfielder,21,0,0,0,0,0,9
+206,Celia,Sears,Central,22,0,0,0,0,0,9
+207,Lizzie,Sedgemore,Goalkeeper,23,0,0,0,0,0,9
+208,Larina,Kimbley,Right Fullback,1,1,0,270,3,3,10
+209,Giana,Feetham,Left Fullback,2,0,1,270,3,3,10
+210,Collette,Linney,Center Back,3,0,0,270,3,3,10
+211,Marylin,Leisman,Center Back,4,0,0,270,3,3,10
+212,Orella,Putt,Defending,5,0,0,270,3,3,10
+213,Michel,Garmons,Right Midfielder,6,0,0,270,3,3,10
+214,Michelina,Bazek,Central,7,0,0,270,3,3,10
+215,Vittoria,Crosen,Striker,8,0,0,270,3,3,10
+216,Crista,De Cruce,Attacking Midfielder,9,0,0,270,3,3,10
+217,Elene,Longland,Left Midfielder,10,0,0,270,3,3,10
+218,Fidela,O'Driscole,Center Back,11,0,0,270,3,3,10
+219,Marilin,Hulme,Center Back,12,0,0,0,0,0,10
+220,Maryann,Maddern,Goalkeeper,13,0,0,0,0,0,10
+221,Anestassia,Ferrao,Right Fullback,14,0,0,0,0,0,10
+222,Wandis,Atto,Left Fullback,15,0,0,0,0,0,10
+223,Claribel,Goodlake,Defending,16,0,0,0,0,0,10
+224,Ellynn,Absolom,Right Midfielder,17,0,0,0,0,0,10
+225,Lorain,Liversage,Central,18,0,0,0,0,0,10
+226,Starr,Kanwell,Striker,19,0,0,0,0,0,10
+227,Manya,Caldwell,Attacking Midfielder,20,0,0,0,0,0,10
+228,Kelcey,Yashunin,Left Midfielder,21,0,0,0,0,0,10
+229,Cilka,Micco,Central,22,0,0,0,0,0,10
+230,Katy,Yurivtsev,Goalkeeper,23,0,0,0,0,0,10
+231,Pavia,Fansy,Right Fullback,1,0,0,270,3,3,11
+232,Kameko,Gretton,Left Fullback,2,0,0,270,3,3,11
+233,Bernita,Flannery,Center Back,3,0,0,270,3,3,11
+234,Mattie,Middleweek,Center Back,4,0,0,270,3,3,11
+235,Elga,Harby,Defending,5,0,0,270,3,3,11
+236,Vilma,Serotsky,Right Midfielder,6,0,0,270,3,3,11
+237,Jennine,Mendez,Central,7,0,0,270,3,3,11
+238,Elora,Gollop,Striker,8,0,0,270,3,3,11
+239,Shaun,Harryman,Attacking Midfielder,9,0,0,270,3,3,11
+240,Lise,Kilrow,Left Midfielder,10,0,0,270,3,3,11
+241,Martha,Inglesent,Center Back,11,0,0,270,3,3,11
+242,Darcy,Enriques,Center Back,12,0,0,0,0,0,11
+243,Dalia,Doick,Goalkeeper,13,0,0,0,0,0,11
+244,Raychel,Vesque,Right Fullback,14,0,0,0,0,0,11
+245,Jessalin,Linfoot,Left Fullback,15,0,0,0,0,0,11
+246,Marlie,Wybron,Defending,16,0,0,0,0,0,11
+247,Wallis,Lamers,Right Midfielder,17,0,0,0,0,0,11
+248,Christie,Caldeyroux,Central,18,0,0,0,0,0,11
+249,Carlynne,Lugton,Striker,19,0,0,0,0,0,11
+250,Jojo,Cowhig,Attacking Midfielder,20,0,0,0,0,0,11
+251,Tedra,Fenney,Left Midfielder,21,0,0,0,0,0,11
+252,Rozella,Liggens,Central,22,0,0,0,0,0,11
+253,Cori,Yurinov,Goalkeeper,23,0,0,0,0,0,11
+254,Jessie,Beringer,Right Fullback,1,1,0,360,4,4,12
+255,Arleen,Diggins,Left Fullback,2,1,0,360,4,4,12
+256,Simonette,Hookes,Center Back,3,0,2,360,4,4,12
+257,Alyson,Epp,Center Back,4,0,0,360,4,4,12
+258,Theda,Cristofolini,Defending,5,0,0,360,4,4,12
+259,Norina,Wyant,Right Midfielder,6,0,0,360,4,4,12
+260,Ruthe,Pachta,Central,7,0,0,360,4,4,12
+261,Melosa,Uttridge,Striker,8,0,0,360,4,4,12
+262,Norah,Kensall,Attacking Midfielder,9,0,0,360,4,4,12
+263,Nancie,Reinbeck,Left Midfielder,10,0,0,360,4,4,12
+264,Stephana,Ambrogi,Center Back,11,0,0,360,4,4,12
+265,Tamqrah,Mapledorum,Center Back,12,0,0,0,0,0,12
+266,Truda,MacGow,Goalkeeper,13,0,0,0,0,0,12
+267,Darell,Fysh,Right Fullback,14,0,0,0,0,0,12
+268,Viki,Besson,Left Fullback,15,0,0,0,0,0,12
+269,Sheelah,Bremen,Defending,16,0,0,0,0,0,12
+270,Corissa,Deporte,Right Midfielder,17,0,0,0,0,0,12
+271,Dotty,Adrain,Central,18,0,0,0,0,0,12
+272,Estelle,Abendroth,Striker,19,0,0,0,0,0,12
+273,Cicily,Shopcott,Attacking Midfielder,20,0,0,0,0,0,12
+274,Caro,Scothorne,Left Midfielder,21,0,0,0,0,0,12
+275,Federica,Mcwhinney,Central,22,0,0,0,0,0,12
+276,Alida,Enochsson,Goalkeeper,23,0,0,0,0,0,12
+277,Edyth,Barwack,Right Fullback,1,2,0,360,4,4,13
+278,Sherie,Spellecy,Left Fullback,2,1,0,360,4,4,13
+279,Dorine,Leftbridge,Center Back,3,0,3,360,4,4,13
+280,Goldi,Havis,Center Back,4,0,0,360,4,4,13
+281,Deeann,Donovan,Defending,5,0,0,360,4,4,13
+282,Layla,Stern,Right Midfielder,6,0,0,360,4,4,13
+283,Tasia,Gres,Central,7,0,0,360,4,4,13
+284,Celestina,Eilers,Striker,8,0,0,360,4,4,13
+285,Willow,Dillintone,Attacking Midfielder,9,0,0,360,4,4,13
+286,Anna,Aiton,Left Midfielder,10,0,0,360,4,4,13
+287,Jillene,Schout,Center Back,11,0,0,360,4,4,13
+288,Mable,Eathorne,Center Back,12,0,0,0,0,0,13
+289,Pat,Horlock,Goalkeeper,13,0,0,0,0,0,13
+290,Cornelle,Regardsoe,Right Fullback,14,0,0,0,0,0,13
+291,Mandi,Minett,Left Fullback,15,0,0,0,0,0,13
+292,Shelbi,Dank,Defending,16,0,0,0,0,0,13
+293,Madelene,Kilfether,Right Midfielder,17,0,0,0,0,0,13
+294,Mella,Moulder,Central,18,0,0,0,0,0,13
+295,Genevra,Girke,Striker,19,0,0,0,0,0,13
+296,Deirdre,Richin,Attacking Midfielder,20,0,0,0,0,0,13
+297,Willow,Riley,Left Midfielder,21,0,0,0,0,0,13
+298,Celesta,Michiel,Central,22,0,0,270,3,3,14
+299,Lena,Dorin,Goalkeeper,23,0,0,270,3,3,14
+300,Alisun,Craggs,Right Fullback,1,1,0,270,3,3,14
+301,Inesita,Gildroy,Left Fullback,2,0,1,270,3,3,14
+302,Jennine,Huddy,Center Back,3,0,0,270,3,3,14
+303,Stefania,Henrych,Center Back,4,0,0,270,3,3,14
+304,Cele,Martyntsev,Defending,5,0,0,270,3,3,14
+305,Aloysia,Cool,Right Midfielder,6,0,0,270,3,3,14
+306,Barbi,Cathersides,Central,7,0,0,270,3,3,14
+307,Ursuline,Jordison,Striker,8,0,0,270,3,3,14
+308,Shirley,Hogben,Attacking Midfielder,9,0,0,270,3,3,14
+309,Guinna,Glencros,Left Midfielder,10,0,0,270,3,3,14
+310,Elsinore,Rosencrantz,Center Back,11,0,0,270,3,3,14
+311,Stephani,Braisby,Center Back,12,0,0,0,0,0,14
+312,Rochella,Ginnane,Goalkeeper,13,0,0,0,0,0,14
+313,Rici,Heiden,Right Fullback,14,0,0,0,0,0,14
+314,Ingaberg,Braunton,Left Fullback,15,0,0,0,0,0,14
+315,Hayley,Christiensen,Defending,16,0,0,0,0,0,14
+316,Philly,Congreve,Right Midfielder,17,0,0,0,0,0,14
+317,Marybeth,Izzard,Central,18,0,0,0,0,0,14
+318,Cyndie,Pelz,Striker,19,0,0,0,0,0,14
+319,Dorris,Lartice,Attacking Midfielder,20,0,0,0,0,0,14
+320,Angelia,Dayes,Left Midfielder,21,0,0,0,0,0,14
+321,Nicolle,Casino,Central,22,0,0,0,0,0,14
+322,Margette,Crisall,Goalkeeper,23,0,0,0,0,0,14
+323,Chelsie,Stollenbeck,Right Fullback,1,3,0,660,7,7,15
+324,Orel,Crayk,Left Fullback,2,2,0,660,7,7,15
+325,Charlotta,Fearnall,Center Back,3,0,0,660,7,7,15
+326,Jessy,Brighouse,Center Back,4,0,0,660,7,7,15
+327,Michaela,Sandbrook,Defending,5,0,0,660,7,7,15
+328,Leola,Gillean,Right Midfielder,6,0,0,660,7,7,15
+329,Natasha,Skayman,Central,7,0,0,660,7,7,15
+330,Sue,Broomfield,Striker,8,0,0,660,7,7,15
+331,Marisa,Tremblot,Attacking Midfielder,9,0,0,660,7,7,15
+332,Henrietta,Burch,Left Midfielder,10,0,0,660,7,7,15
+333,Dorene,Rowter,Center Back,11,0,0,630,7,7,15
+334,Ardyth,Wallsworth,Center Back,12,0,0,30,1,0,15
+335,Mareah,Powe,Goalkeeper,13,0,0,0,0,0,15
+336,Leigha,Moulding,Right Fullback,14,0,0,0,0,0,15
+337,Karry,Greave,Left Fullback,15,0,0,0,0,0,15
+338,Sisely,Charle,Defending,16,0,0,0,0,0,15
+339,Crissy,Ongin,Right Midfielder,17,0,0,0,0,0,15
+340,Leta,Bottrill,Central,18,0,0,0,0,0,15
+341,Halimeda,Spyby,Striker,19,0,0,0,0,0,15
+342,Kacy,Lindborg,Attacking Midfielder,20,0,0,0,0,0,15
+343,Xena,Buessen,Left Midfielder,21,0,0,0,0,0,15
+344,Kali,Crush,Central,22,0,0,0,0,0,15
+345,Cosetta,Middlewick,Goalkeeper,23,0,0,0,0,0,15
+346,Marty,Klimkovich,Right Fullback,1,0,0,270,3,3,16
+347,Bobbi,Vatini,Left Fullback,2,0,0,270,3,3,16
+348,Margaretha,Lathe,Center Back,3,0,0,270,3,3,16
+349,Cindie,Axon,Center Back,4,0,0,270,3,3,16
+350,Rosmunda,Semiraz,Defending,5,0,0,270,3,3,16
+351,Lexi,Bowles,Right Midfielder,6,0,0,270,3,3,16
+352,Kelli,Brass,Central,7,0,0,270,3,3,16
+353,Angie,Foat,Striker,8,0,0,270,3,3,16
+354,Mady,Losano,Attacking Midfielder,9,0,0,270,3,3,16
+355,Arlina,Gozzett,Left Midfielder,10,0,0,270,3,3,16
+356,Daffie,Raspel,Center Back,11,0,0,270,3,3,16
+357,Gizela,Chettle,Center Back,12,0,0,0,0,0,16
+358,Mirabelle,Kinset,Goalkeeper,13,0,0,0,0,0,16
+359,Maryanne,Camolli,Right Fullback,14,0,0,0,0,0,16
+360,Rubia,Brahm,Left Fullback,15,0,0,0,0,0,16
+361,Sybil,Swaine,Defending,16,0,0,0,0,0,16
+362,Adore,Porkiss,Right Midfielder,17,0,0,0,0,0,16
+363,Willetta,Erwin,Central,18,0,0,0,0,0,16
+364,Eyde,Dronsfield,Striker,19,0,0,0,0,0,16
+365,Theodora,Yukhin,Attacking Midfielder,20,0,0,0,0,0,16
+366,Vevay,Chamney,Left Midfielder,21,0,0,0,0,0,16
+367,Allie,Kilfeder,Central,22,0,0,0,0,0,16
+368,Pammi,Vasilevich,Goalkeeper,23,0,0,0,0,0,16
+369,Dasha,Wichard,Right Fullback,1,2,0,360,4,4,17
+370,Lee,Baker,Left Fullback,2,1,0,360,4,4,17
+371,Felicdad,Jones,Center Back,3,0,2,360,4,4,17
+372,Lauryn,Ciric,Center Back,4,0,1,360,4,4,17
+373,Maribelle,Rymell,Defending,5,0,0,360,4,4,17
+374,Vanni,Hayland,Right Midfielder,6,0,0,360,4,4,17
+375,Roby,Winfield,Central,7,0,0,360,4,4,17
+376,Nydia,Stobbs,Striker,8,0,0,360,4,4,17
+377,Dolores,Vial,Attacking Midfielder,9,0,0,360,4,4,17
+378,Nettle,Kenwin,Left Midfielder,10,0,0,360,4,4,17
+379,Ninon,Raeside,Center Back,11,0,0,360,4,4,17
+380,Barbra,Bowyer,Center Back,12,0,0,0,0,0,17
+381,Cari,Carl,Goalkeeper,13,0,0,0,0,0,17
+382,Lark,Soans,Right Fullback,14,0,0,0,0,0,17
+383,Suzy,Enbury,Left Fullback,15,0,0,0,0,0,17
+384,Nert,Lethbridge,Defending,16,0,0,0,0,0,17
+385,Maddalena,Machen,Right Midfielder,17,0,0,0,0,0,17
+386,Hinda,Lipsett,Central,18,0,0,0,0,0,17
+387,Cleopatra,Neat,Striker,19,0,0,0,0,0,17
+388,Anallese,Darkin,Attacking Midfielder,20,0,0,0,0,0,17
+389,Mada,Cowan,Left Midfielder,21,0,0,0,0,0,17
+390,Nicki,Lapthorne,Central,22,0,0,0,0,0,17
+391,Ailis,Baxter,Goalkeeper,23,0,0,0,0,0,17
+392,Coreen,Thickett,Right Fullback,1,1,0,270,3,3,18
+393,Kim,Rozier,Left Fullback,2,0,1,270,3,3,18
+394,Miran,Doy,Center Back,3,0,0,270,3,3,18
+395,Michaella,Ipsley,Center Back,4,0,0,270,3,3,18
+396,Griselda,Dumbrill,Defending,5,0,0,270,3,3,18
+397,Victoria,Grzegorecki,Right Midfielder,6,0,0,270,3,3,18
+398,Teresa,McKinna,Central,7,0,0,270,3,3,18
+399,Philipa,Averall,Striker,8,0,0,270,3,3,18
+400,Karon,Partington,Attacking Midfielder,9,0,0,270,3,3,18
+401,Alys,Eschalette,Left Midfielder,10,0,0,270,3,3,18
+402,Elvina,Jancy,Center Back,11,0,0,270,3,3,18
+403,Celesta,Bartolic,Center Back,12,0,0,0,0,0,18
+404,Tanitansy,Villalta,Goalkeeper,13,0,0,0,0,0,18
+405,Marylou,Curran,Right Fullback,14,0,0,0,0,0,18
+406,Shirleen,Sargison,Left Fullback,15,0,0,0,0,0,18
+407,Lily,Abrahamovitz,Defending,16,0,0,0,0,0,18
+408,Crysta,Wisden,Right Midfielder,17,0,0,0,0,0,18
+409,Morissa,Doxsey,Central,18,0,0,0,0,0,18
+410,Clarissa,Barnsdall,Striker,19,0,0,0,0,0,18
+411,Masha,Le Breton,Attacking Midfielder,20,0,0,0,0,0,18
+412,Ardith,Nutty,Left Midfielder,21,0,0,0,0,0,18
+413,Nelly,Caesar,Central,22,0,0,0,0,0,18
+414,Myranda,Rosenfarb,Goalkeeper,23,0,0,0,0,0,18
+415,Cate,Connealy,Right Fullback,1,0,0,270,3,3,19
+416,Karissa,Judson,Left Fullback,2,0,0,270,3,3,19
+417,Blancha,Rosebotham,Center Back,3,0,0,270,3,3,19
+418,Pansy,Ovitz,Center Back,4,0,0,270,3,3,19
+419,Wanids,Oneill,Defending,5,0,0,270,3,3,19
+420,Dareen,Chalfont,Right Midfielder,6,0,0,270,3,3,19
+421,Donetta,Meriguet,Central,7,0,0,270,3,3,19
+422,Tarra,Keitch,Striker,8,0,0,270,3,3,19
+423,Fionnula,Rickard,Attacking Midfielder,9,0,0,270,3,3,19
+424,Prissie,Casetti,Left Midfielder,10,0,0,270,3,3,19
+425,June,Ramsdell,Center Back,11,0,0,270,3,3,19
+426,Vickie,Britch,Center Back,12,0,0,0,0,0,19
+427,Idette,Cline,Goalkeeper,13,0,0,0,0,0,19
+428,Monica,Newick,Right Fullback,14,0,0,0,0,0,19
+429,Zena,Amber,Left Fullback,15,0,0,0,0,0,19
+430,Chad,Preddy,Defending,16,0,0,0,0,0,19
+431,Marnia,Cripps,Right Midfielder,17,0,0,0,0,0,19
+432,Bren,Tremontana,Central,18,0,0,0,0,0,19
+433,Cristionna,Newey,Striker,19,0,0,0,0,0,19
+434,Caro,Koomar,Attacking Midfielder,20,0,0,0,0,0,19
+435,Jere,Fillis,Left Midfielder,21,0,0,0,0,0,19
+436,Anastasia,Dinneen,Central,22,0,0,0,0,0,19
+437,Mellisent,O'Doireidh,Goalkeeper,23,0,0,0,0,0,19
+438,Anetta,Dowsett,Right Fullback,1,3,0,450,5,5,20
+439,Kally,Callingham,Left Fullback,2,0,1,450,5,5,20
+440,Goldie,Revitt,Center Back,3,0,2,450,5,5,20
+441,Annalise,Banaszczyk,Center Back,4,0,0,450,5,5,20
+442,Maye,Gillaspy,Defending,5,0,0,450,5,5,20
+443,Alethea,Bebb,Right Midfielder,6,0,0,450,5,5,20
+444,Laura,Wickwar,Central,7,0,0,450,5,5,20
+445,Sharyl,Spadazzi,Striker,8,0,0,450,5,5,20
+446,Andrei,Gumm,Attacking Midfielder,9,0,0,450,5,5,20
+447,Billie,Brimmell,Left Midfielder,10,0,0,450,5,5,20
+448,Jonie,Duffett,Center Back,11,0,0,450,5,5,20
+449,Perri,Linny,Center Back,12,0,0,0,0,0,20
+450,Easter,Mara,Goalkeeper,13,0,0,0,0,0,20
+451,Lucky,Hayes,Right Fullback,14,0,0,0,0,0,20
+452,Emmey,Anan,Left Fullback,15,0,0,0,0,0,20
+453,La verne,Noddings,Defending,16,0,0,0,0,0,20
+454,Gennifer,Leak,Right Midfielder,17,0,0,0,0,0,20
+455,Jasmine,Lenormand,Central,18,0,0,0,0,0,20
+456,Aurlie,Cush,Striker,19,0,0,0,0,0,20
+457,Lura,Bortoluzzi,Attacking Midfielder,20,0,0,0,0,0,20
+458,Meredithe,Mountcastle,Left Midfielder,21,0,0,0,0,0,20
+459,Elana,Seamans,Central,22,0,0,0,0,0,20
+460,Joleen,Coathup,Goalkeeper,23,0,0,0,0,0,20
+461,Charita,Brewster,Right Fullback,1,2,0,660,7,7,21
+462,Cami,Murrigan,Left Fullback,2,3,0,660,7,7,21
+463,Filia,Varfalameev,Center Back,3,0,5,660,7,7,21
+464,Brena,Welbrock,Center Back,4,0,0,660,7,7,21
+465,Quintina,Clousley,Defending,5,0,0,660,7,7,21
+466,Adore,Cosgriff,Right Midfielder,6,0,0,660,7,7,21
+467,Karalee,Theyer,Central,7,0,0,660,7,7,21
+468,Hedwig,Saddler,Striker,8,0,0,660,7,7,21
+469,Marie-jeanne,Randerson,Attacking Midfielder,9,0,0,660,7,7,21
+470,Rebe,Marklow,Left Midfielder,10,0,0,660,7,7,21
+471,Zita,Mordecai,Center Back,11,0,0,630,7,7,21
+472,Janice,Braunfeld,Center Back,12,0,0,30,1,0,21
+473,Ingunna,Blyde,Goalkeeper,13,0,0,0,0,0,21
+474,Vicki,Fosdyke,Right Fullback,14,0,0,0,0,0,21
+475,Evvie,Sexten,Left Fullback,15,0,0,0,0,0,21
+476,Sharyl,Walentynowicz,Defending,16,0,0,0,0,0,21
+477,Daveta,Cudd,Right Midfielder,17,0,0,0,0,0,21
+478,Kali,Luther,Central,18,0,0,0,0,0,21
+479,Tansy,Slowey,Striker,19,0,0,0,0,0,21
+480,Winny,Aidler,Attacking Midfielder,20,0,0,0,0,0,21
+481,Debora,Burchill,Left Midfielder,21,0,0,0,0,0,21
+482,Caitrin,VanBrugh,Central,22,0,0,0,0,0,21
+483,Joela,Aynold,Goalkeeper,23,0,0,0,0,0,21
+484,Martita,Pierton,Right Fullback,1,1,0,360,4,4,22
+485,Morena,Hubbucke,Left Fullback,2,1,0,360,4,4,22
+486,Magdalena,Kiljan,Center Back,3,0,1,360,4,4,22
+487,Ashla,Largen,Center Back,4,0,1,360,4,4,22
+488,Lulu,Ayerst,Defending,5,0,0,360,4,4,22
+489,Billye,Clampe,Right Midfielder,6,0,0,360,4,4,22
+490,Melva,Dwelley,Central,7,0,0,360,4,4,22
+491,Angelika,Cuardall,Striker,8,0,0,360,4,4,22
+492,Edwina,Brazel,Attacking Midfielder,9,0,0,360,4,4,22
+493,Briny,Grewe,Left Midfielder,10,0,0,360,4,4,22
+494,Rafaelia,Clem,Center Back,11,0,0,360,4,4,22
+495,Sandie,MacCallam,Center Back,12,0,0,0,0,0,22
+496,Jojo,Wethered,Goalkeeper,13,0,0,0,0,0,22
+497,Rycca,Godfrey,Right Fullback,14,0,0,0,0,0,22
+498,Farrand,O' Quirk,Left Fullback,15,0,0,0,0,0,22
+499,Mareah,Crankshaw,Defending,16,0,0,0,0,0,22
+500,Pippa,Mingard,Right Midfielder,17,0,0,0,0,0,22
+501,Dianne,Seebright,Central,18,0,0,0,0,0,22
+502,Birgit,Tuplin,Striker,19,0,0,0,0,0,22
+503,Martina,Feavyour,Attacking Midfielder,20,0,0,0,0,0,22
+504,Annadiane,Wincott,Left Midfielder,21,0,0,0,0,0,22
+505,Gloriane,Ferrieroi,Central,22,0,0,0,0,0,22
+506,Shandy,Burgett,Goalkeeper,23,0,0,0,0,0,22
+507,Claudetta,Bech,Right Fullback,1,1,0,270,3,3,23
+508,Nadine,Sharp,Left Fullback,2,0,1,270,3,3,23
+509,Andria,Probbings,Center Back,3,0,0,270,3,3,23
+510,Feodora,Arrault,Center Back,4,0,0,270,3,3,23
+511,Juliette,Catherick,Defending,5,0,0,270,3,3,23
+512,Vanya,Jammet,Right Midfielder,6,0,0,270,3,3,23
+513,Effie,Nicholl,Central,7,0,0,270,3,3,23
+514,Cassandry,Butterly,Striker,8,0,0,270,3,3,23
+515,Becki,Lamminam,Attacking Midfielder,9,0,0,270,3,3,23
+516,Lib,Salliss,Left Midfielder,10,0,0,270,3,3,23
+517,Cristi,Downes,Center Back,11,0,0,270,3,3,23
+518,Brittne,Chainey,Center Back,12,0,0,0,0,0,23
+519,Oona,Anselm,Goalkeeper,13,0,0,0,0,0,23
+520,Kristen,Mcwhinnie,Right Fullback,14,0,0,0,0,0,23
+521,Malissia,Hurford,Left Fullback,15,0,0,0,0,0,23
+522,Vonni,Adamides,Defending,16,0,0,0,0,0,23
+523,Nance,Roistone,Right Midfielder,17,0,0,0,0,0,23
+524,Steffi,Kettles,Central,18,0,0,0,0,0,23
+525,Merrill,Penddreth,Striker,19,0,0,0,0,0,23
+526,Katy,Trevear,Attacking Midfielder,20,0,0,0,0,0,23
+527,Jorey,Kington,Left Midfielder,21,0,0,0,0,0,23
+528,Georgeanna,Marchant,Central,22,0,0,0,0,0,23
+529,Wylma,Tapp,Goalkeeper,23,0,0,0,0,0,23
+530,Madelle,Proudlove,Right Fullback,1,0,0,270,3,3,24
+531,Marylou,Coning,Left Fullback,2,0,0,270,3,3,24
+532,Melicent,Ivanishev,Center Back,3,0,0,270,3,3,24
+533,Lucretia,Rapa,Center Back,4,0,0,270,3,3,24
+534,Friederike,Vedeniktov,Defending,5,0,0,270,3,3,24
+535,Corinna,McIlhatton,Right Midfielder,6,0,0,270,3,3,24
+536,Hyacinth,Rodgers,Central,7,0,0,270,3,3,24
+537,Corette,Morrow,Striker,8,0,0,270,3,3,24
+538,Jeanine,Davion,Attacking Midfielder,9,0,0,270,3,3,24
+539,Adore,Kenvin,Left Midfielder,10,0,0,270,3,3,24
+540,Sheela,Cockayme,Center Back,11,0,0,270,3,3,24
+541,Lizbeth,Durrell,Center Back,12,0,0,0,0,0,24
+542,Cristen,Bram,Goalkeeper,13,0,0,0,0,0,24
+543,Wilmette,Dawson,Right Fullback,14,0,0,0,0,0,24
+544,Jenn,Ohlsen,Left Fullback,15,0,0,0,0,0,24
+545,Brunhilde,Kinnard,Defending,16,0,0,0,0,0,24
+546,Camilla,Winear,Right Midfielder,17,0,0,0,0,0,24
+547,Sallee,Langelay,Central,18,0,0,0,0,0,24
+548,Fedora,Oswald,Striker,19,0,0,0,0,0,24
+549,Norri,De Lisle,Attacking Midfielder,20,0,0,0,0,0,24
+550,Keri,Pavolini,Left Midfielder,21,0,0,0,0,0,24
+551,Teriann,Ricard,Central,22,0,0,0,0,0,24
+552,Clemmy,Norquoy,Goalkeeper,23,0,0,0,0,0,24
+553,Rosanne,Dignam,Right Fullback,1,3,0,360,4,4,25
+554,Claudine,Dymidowicz,Left Fullback,2,0,1,360,4,4,25
+555,Camille,Basnett,Center Back,3,0,2,360,4,4,25
+556,Conchita,Allnutt,Center Back,4,0,0,360,4,4,25
+557,Idalina,Staddom,Defending,5,0,0,360,4,4,25
+558,Karrah,Stell,Right Midfielder,6,0,0,360,4,4,25
+559,Romonda,Runsey,Central,7,0,0,360,4,4,25
+560,Karoly,Farres,Striker,8,0,0,360,4,4,25
+561,Robinia,Bellany,Attacking Midfielder,9,0,0,360,4,4,25
+562,Elnore,Rives,Left Midfielder,10,0,0,360,4,4,25
+563,Collie,Meace,Center Back,11,0,0,360,4,4,25
+564,Bernadette,Ragsdale,Center Back,12,0,0,0,0,0,25
+565,Dory,Fellnee,Goalkeeper,13,0,0,0,0,0,25
+566,Nesta,Foister,Right Fullback,14,0,0,0,0,0,25
+567,Tiffi,Novichenko,Left Fullback,15,0,0,0,0,0,25
+568,Astrid,Jelly,Defending,16,0,0,0,0,0,25
+569,Arlyne,Orriss,Right Midfielder,17,0,0,0,0,0,25
+570,Ranice,Cuardall,Central,18,0,0,0,0,0,25
+571,Nollie,Gumey,Striker,19,0,0,0,0,0,25
+572,Pat,Bilsland,Attacking Midfielder,20,0,0,0,0,0,25
+573,Christina,Ettles,Left Midfielder,21,0,0,0,0,0,25
+574,Damara,Tithacott,Central,22,0,0,0,0,0,25
+575,Wenonah,Hurndall,Goalkeeper,23,0,0,0,0,0,25
+576,Lea,Georgot,Right Fullback,1,0,0,270,3,3,26
+577,Roze,McGuggy,Left Fullback,2,0,0,270,3,3,26
+578,Anna-diane,Cawston,Center Back,3,0,0,270,3,3,26
+579,Kylie,Castellino,Center Back,4,0,0,270,3,3,26
+580,Kaycee,Matley,Defending,5,0,0,270,3,3,26
+581,Filippa,MacInerney,Right Midfielder,6,0,0,270,3,3,26
+582,Hetti,Neill,Central,7,0,0,270,3,3,26
+583,Megan,Duckham,Striker,8,0,0,270,3,3,26
+584,Eyde,Barthorpe,Attacking Midfielder,9,0,0,270,3,3,26
+585,Doria,Berr,Left Midfielder,10,0,0,270,3,3,26
+586,Cindelyn,McPhilip,Center Back,11,0,0,270,3,3,26
+587,Debera,Pourveer,Center Back,12,0,0,0,0,0,26
+588,Auberta,Rosiello,Goalkeeper,13,0,0,0,0,0,26
+589,Dena,Roseborough,Right Fullback,14,0,0,0,0,0,26
+590,Eveleen,Messruther,Left Fullback,15,0,0,0,0,0,26
+591,Trescha,Marin,Defending,16,0,0,0,0,0,26
+592,Stephani,Shinton,Right Midfielder,17,0,0,0,0,0,26
+593,Linda,Peret,Central,18,0,0,0,0,0,26
+594,Kaitlynn,Kynston,Striker,19,0,0,0,0,0,26
+595,Eran,Murdie,Attacking Midfielder,20,0,0,0,0,0,26
+596,Simona,Suddards,Left Midfielder,21,0,0,0,0,0,26
+597,Rosamond,Paxeford,Central,22,0,0,0,0,0,26
+598,Carla,Screwton,Goalkeeper,23,0,0,0,0,0,26
+599,Valerye,McRobert,Right Fullback,1,1,0,270,3,3,27
+600,Kimberli,Wyatt,Left Fullback,2,0,1,270,3,3,27
+601,Emogene,Houtby,Center Back,3,0,0,270,3,3,27
+602,Brandice,Lasseter,Center Back,4,0,0,270,3,3,27
+603,Nell,Harrinson,Defending,5,0,0,270,3,3,27
+604,Micky,MacCostigan,Right Midfielder,6,0,0,270,3,3,27
+605,Addie,McLean,Central,7,0,0,270,3,3,27
+606,Sybille,Fonte,Striker,8,0,0,270,3,3,27
+607,Emmie,Harrema,Attacking Midfielder,9,0,0,270,3,3,27
+608,Joscelin,Dobrovolny,Left Midfielder,10,0,0,270,3,3,27
+609,Jenine,Minards,Center Back,11,0,0,270,3,3,27
+610,Yasmin,Ife,Center Back,12,0,0,0,0,0,27
+611,Tabbie,Kimbley,Goalkeeper,13,0,0,0,0,0,27
+612,Lynette,Sainsbury-Brown,Right Fullback,14,0,0,0,0,0,27
+613,Linnell,Parry,Left Fullback,15,0,0,0,0,0,27
+614,Laina,Dumingo,Defending,16,0,0,0,0,0,27
+615,Hailee,Jovey,Right Midfielder,17,0,0,0,0,0,27
+616,Milissent,Moyse,Central,18,0,0,0,0,0,27
+617,Tuesday,Bache,Striker,19,0,0,0,0,0,27
+618,Genevieve,Kingzett,Attacking Midfielder,20,0,0,0,0,0,27
+619,Kalli,Pourvoieur,Left Midfielder,21,0,0,0,0,0,27
+620,Sissy,Trumble,Central,22,0,0,0,0,0,27
+621,Yetta,O'Criane,Goalkeeper,23,0,0,0,0,0,27
+622,Glenn,Skyram,Right Fullback,1,2,0,660,7,7,28
+623,Emmie,Spafford,Left Fullback,2,3,0,660,7,7,28
+624,Carolin,Duffet,Center Back,3,0,2,660,7,7,28
+625,Darya,Kingswell,Center Back,4,0,1,660,7,7,28
+626,Bette-ann,Winckworth,Defending,5,0,1,660,7,7,28
+627,Fancie,Blanchflower,Right Midfielder,6,0,1,660,7,7,28
+628,Larisa,Donoghue,Central,7,0,0,660,7,7,28
+629,Carlota,Deely,Striker,8,0,0,660,7,7,28
+630,Loren,Cunney,Attacking Midfielder,9,0,0,660,7,7,28
+631,Sean,Kift,Left Midfielder,10,0,0,660,7,7,28
+632,Deedee,Rubinov,Center Back,11,0,0,630,7,7,28
+633,Maurine,Cross,Center Back,12,0,0,30,1,0,28
+634,Rochell,Halso,Goalkeeper,13,0,0,0,0,0,28
+635,Annabell,McPaike,Right Fullback,14,0,0,0,0,0,28
+636,Page,Parsand,Left Fullback,15,0,0,0,0,0,28
+637,Madelon,Ganning,Defending,16,0,0,0,0,0,28
+638,Lolita,Cases,Right Midfielder,17,0,0,0,0,0,28
+639,Dorelia,Hambers,Central,18,0,0,0,0,0,28
+640,Koressa,McGarvie,Striker,19,0,0,0,0,0,28
+641,Rafaelita,Blasdale,Attacking Midfielder,20,0,0,0,0,0,28
+642,Shaun,Mackett,Left Midfielder,21,0,0,0,0,0,28
+643,Shari,Vuitte,Central,22,0,0,0,0,0,28
+644,Evangelia,Delue,Goalkeeper,23,0,0,0,0,0,28
+645,Claire,Anersen,Right Fullback,1,3,0,360,4,4,29
+646,Shea,Ree,Left Fullback,2,0,1,360,4,4,29
+647,Gretal,McInulty,Center Back,3,0,1,360,4,4,29
+648,Vivie,Quartermain,Center Back,4,0,1,360,4,4,29
+649,Vivianne,Mival,Defending,5,0,0,360,4,4,29
+650,Annecorinne,Southcombe,Right Midfielder,6,0,0,360,4,4,29
+651,Carlynn,Pagen,Central,7,0,0,360,4,4,29
+652,Pearla,Shitliffe,Striker,8,0,0,360,4,4,29
+653,Pier,Dorber,Attacking Midfielder,9,0,0,360,4,4,29
+654,Karol,Treadgold,Left Midfielder,10,0,0,360,4,4,29
+655,Karen,Loach,Center Back,11,0,0,360,4,4,29
+656,Delora,Kernermann,Center Back,12,0,0,0,0,0,29
+657,Lu,Urian,Goalkeeper,13,0,0,0,0,0,29
+658,Vilma,Lamberth,Right Fullback,14,0,0,0,0,0,29
+659,Shana,Bradborne,Left Fullback,15,0,0,0,0,0,29
+660,Konstanze,Milnthorpe,Defending,16,0,0,0,0,0,29
+661,Stepha,Mulheron,Right Midfielder,17,0,0,0,0,0,29
+662,Nelli,Barok,Central,18,0,0,0,0,0,29
+663,Laina,Siret,Striker,19,0,0,0,0,0,29
+664,Stevana,Baudassi,Attacking Midfielder,20,0,0,0,0,0,29
+665,Bridgette,Saintsbury,Left Midfielder,21,0,0,0,0,0,29
+666,Maryrose,Fardy,Central,22,0,0,0,0,0,29
+667,Kare,Waterfield,Goalkeeper,23,0,0,0,0,0,29
+668,Maddi,Durn,Right Fullback,1,1,0,270,3,3,30
+669,Ianthe,Doust,Left Fullback,2,0,1,270,3,3,30
+670,Dani,Booth,Center Back,3,0,0,270,3,3,30
+671,Natka,Chasney,Center Back,4,0,0,270,3,3,30
+672,Antonetta,Tatnell,Defending,5,0,0,270,3,3,30
+673,Lorrie,McCarlie,Right Midfielder,6,0,0,270,3,3,30
+674,Harrietta,Roughan,Central,7,0,0,270,3,3,30
+675,Kristyn,Risborough,Striker,8,0,0,270,3,3,30
+676,Dani,Blyden,Attacking Midfielder,9,0,0,270,3,3,30
+677,Cecile,Waldocke,Left Midfielder,10,0,0,270,3,3,30
+678,Gianina,Newport,Center Back,11,0,0,270,3,3,30
+679,Dosi,Lickorish,Center Back,12,0,0,0,0,0,30
+680,Annadiane,Hartup,Goalkeeper,13,0,0,0,0,0,30
+681,Allis,Airton,Right Fullback,14,0,0,0,0,0,30
+682,Laurianne,Baumadier,Left Fullback,15,0,0,0,0,0,30
+683,Cornelia,Reuben,Defending,16,0,0,0,0,0,30
+684,Karmen,D'Alessandro,Right Midfielder,17,0,0,0,0,0,30
+685,Celeste,Spurr,Central,18,0,0,0,0,0,30
+686,Gabrielle,Risdale,Striker,19,0,0,0,0,0,30
+687,Tansy,Flux,Attacking Midfielder,20,0,0,0,0,0,30
+688,Sophie,Majury,Left Midfielder,21,0,0,0,0,0,30
+689,Gwyneth,Mouatt,Central,22,0,0,0,0,0,30
+690,Cleo,Boschmann,Goalkeeper,23,0,0,0,0,0,30
+691,Maribel,Setterington,Right Fullback,1,1,0,450,5,5,31
+692,De,Menendez,Left Fullback,2,1,1,450,5,5,31
+693,Shanta,Freezor,Center Back,3,1,1,450,5,5,31
+694,Carlyn,Huntington,Center Back,4,0,0,450,5,5,31
+695,Lauraine,Wennam,Defending,5,0,1,450,5,5,31
+696,Dollie,Seys,Right Midfielder,6,0,0,450,5,5,31
+697,Kylila,Morillas,Central,7,0,0,450,5,5,31
+698,Allie,Lydiard,Striker,8,0,0,450,5,5,31
+699,Hildegaard,MacKey,Attacking Midfielder,9,0,0,450,5,5,31
+700,Tina,Ketteridge,Left Midfielder,10,0,0,450,5,5,31
+701,Simonne,Ranner,Center Back,11,0,0,450,5,5,31
+702,Roslyn,Kinane,Center Back,12,0,0,0,0,0,31
+703,Mignon,O'Brogane,Goalkeeper,13,0,0,0,0,0,31
+704,Lona,Whiston,Right Fullback,14,0,0,0,0,0,31
+705,Hilliary,Emmer,Left Fullback,15,0,0,0,0,0,31
+706,Joni,Titmus,Defending,16,0,0,0,0,0,31
+707,Raquel,Le Friec,Right Midfielder,17,0,0,0,0,0,31
+708,Alaine,Seeviour,Central,18,0,0,0,0,0,31
+709,Emmalynne,Whartonby,Striker,19,0,0,0,0,0,31
+710,Zandra,Harlowe,Attacking Midfielder,20,0,0,0,0,0,31
+711,Mikaela,Archibould,Left Midfielder,21,0,0,0,0,0,31
+712,Koralle,Eagleton,Central,22,0,0,0,0,0,31
+713,Kathi,Raycroft,Goalkeeper,23,0,0,0,0,0,31
+714,Ronalda,Esler,Right Fullback,1,0,0,270,3,3,32
+715,Fulvia,Whitington,Left Fullback,2,0,0,270,3,3,32
+716,Jayne,Skipper,Center Back,3,0,0,270,3,3,32
+717,Melany,Olle,Center Back,4,0,0,270,3,3,32
+718,Shela,Denkin,Defending,5,0,0,270,3,3,32
+719,Lauree,Hagger,Right Midfielder,6,0,0,270,3,3,32
+720,Hermine,Archbutt,Central,7,0,0,270,3,3,32
+721,Wandis,Kemball,Striker,8,0,0,270,3,3,32
+722,Jaclin,Duckett,Attacking Midfielder,9,0,0,270,3,3,32
+723,Corette,Yarwood,Left Midfielder,10,0,0,270,3,3,32
+724,Arden,Valencia,Center Back,11,0,0,270,3,3,32
+725,Melisande,Hearnah,Center Back,12,0,0,0,0,0,32
+726,Noemi,Watkiss,Goalkeeper,13,0,0,0,0,0,32
+727,Diana,Schult,Right Fullback,14,0,0,0,0,0,32
+728,Emelina,Cohn,Left Fullback,15,0,0,0,0,0,32
+729,Marketa,Gooderridge,Defending,16,0,0,0,0,0,32
+730,Eada,Misselbrook,Right Midfielder,17,0,0,0,0,0,32
+731,Lanni,Lindwasser,Central,18,0,0,0,0,0,32
+732,Sammy,Liggett,Striker,19,0,0,0,0,0,32
+733,Theressa,Watmore,Attacking Midfielder,20,0,0,0,0,0,32
+734,Cassie,Ricard,Left Midfielder,21,0,0,0,0,0,32
+735,Lenore,Parry,Central,22,0,0,0,0,0,32
+736,Andy,Redit,Goalkeeper,23,0,0,0,0,0,32

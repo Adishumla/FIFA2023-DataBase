@@ -23,13 +23,11 @@ create table players
     player_number int,
     player_goals int,
     player_assists int,
-    player_yellow_cards int,
-    player_red_cards int,
     minutes_played int,
     matches_played int,
-    mathes_started int,
+    matches_started int,
     team_id int,
-    foreign key (team_id) references teams(id)
+    --foreign key (team_id) references teams(id)
 );
 
 --matches tabel
@@ -77,8 +75,8 @@ create table cards
     card_player_id int,
     card_match_id int,
     card_type varchar(50),
-    foreign key (card_player_id) references players(id),
-    foreign key (card_match_id) references matches(id)
+    --foreign key (card_player_id) references players(id),
+    --foreign key (card_match_id) references matches(id)
 );
 
 --venues tabel
@@ -114,21 +112,48 @@ create table referees
 
 
 --Code Awnsers
-List all games today = select * from matches where match_date = '2023-08-05'
+List all games today = 
+select * from matches where match_date = '2023-08-05'
 
-List a team’s matches and results. = 
+List a team’s matches and results. =  
+select * from matches where match_home_team_id = 4 or match_away_team_id = 4
 
-List a group table with teams, wins, draws, losses, goal difference and points.
+List a group table with teams, wins, draws, losses, goal difference and points. = 
+select group_name, team_name, wins_total, losses_total, ties_total, goals_total, conceded_goals_total, (goals_total - conceded_goals_total) as goal_difference, (wins_total * 3 + ties_total) as points
+from teams
+inner join matches on teams.id = matches.match_home_team_id or teams.id = matches.match_away_team_id
+where group_name = 'A'
+group by team_name
+order by points desc, goal_difference desc;
 
-List the top-10 players sorted first by goals, then by assists
+List the top-10 players sorted first by goals, then by assists = (OBS: I'm not sure if I understood the question correctly)
+select player_first_name, player_last_name, player_goals, player_assists 
+from players
+order by player_goals desc, player_assists desc
+limit 10;
 
-List all players that are unavailable due to disciplinary reasons (i.e 2 yellow cards or 1 red card)
+List all players that are unavailable due to disciplinary reasons (i.e 2 yellow cards or 1 red card) = (OBS: no person has more than 1 yellow card, maybe!?)
+select player_first_name, player_last_name, player_position, player_number, card_type
+from players
+inner join cards on players.id = cards.card_player_id
+where card_type = 'red' or card_type = 'yellow'
+group by player_first_name, player_last_name, player_position, player_number, card_type
+having card_type = 'yellow' and count(card_type) >= 2 or card_type = 'red' and count(card_type) >= 1
+order by player_first_name, player_last_name;
 
 List a teams roster with players and coach, goals, assists, shots and disciplinary, matches played, matches started, minutes played. Number of clean sheets and save percentage for the goalkeepers.
 
-Detailed info for a finished game including teams, players, goals, disciplinary, substitutions, referee, venue, date. Every situation often includes one or more players, a time and sometimes additional info
+Detailed info for a finished game including teams, players, goals, disciplinary, substitutions, referee, venue, date. Every situation often includes one or more players, a time and sometimes additional info =
+select match_date, match_time, match_home_team_id, match_away_team_id, match_home_team_goals, match_away_team_goals, match_head_referee, match_location, player_first_name, player_last_name, player_position, player_number, card_type, goal_minute, goal_scorer_id, goal_assist_id, goal_match_id
+from matches
+inner join players on matches.match_home_team_id = players.team_id or matches.match_away_team_id = players.team_id
+inner join cards on players.id = cards.card_player_id
+inner join goals on players.id = goals.goal_scorer_id
+where match_date = '2023-08-05'
 
-Short info (teams, flags, abbreviations, score) for the same game as above.
+
+Short info (teams, flags, abbreviations, score) for the same game as above. =
+
 
 List the playoff tree with team abbreviations and -flags, score (if any)/date and time if no result.
 
@@ -145,4 +170,6 @@ df.loc[df.sample(frac=0.15).index, "card_type"] = "yellow"
 df.loc[df.sample(frac=0.07).index, "card_type"] = "red"
 
 df.to_csv("../csv/cards.csv", index=False)
+
+
 
