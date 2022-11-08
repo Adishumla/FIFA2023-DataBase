@@ -155,7 +155,13 @@ where match_date = '2023-08-05'
 Short info (teams, flags, abbreviations, score) for the same game as above. =
 
 
-List the playoff tree with team abbreviations and -flags, score (if any)/date and time if no result.
+
+List the playoff tree with team abbreviations and -flags, score (if any)/date and time if no result. = 
+select team_name, wins_total
+from teams
+order by wins_total desc
+limit 3;
+
 
 -- python code 
 
@@ -170,6 +176,5 @@ df.loc[df.sample(frac=0.15).index, "card_type"] = "yellow"
 df.loc[df.sample(frac=0.07).index, "card_type"] = "red"
 
 df.to_csv("../csv/cards.csv", index=False)
-
 
 
