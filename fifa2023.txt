@@ -112,40 +112,40 @@ create table referees
 
 
 --Code Awnsers
-List all games today = 
+1. List all games today = 
 select * from matches where match_date = '2023-08-05'
 
-List a team’s matches and results. =  
+2. List a team’s matches and results. =  
 select * from matches where match_home_team_id = 4 or match_away_team_id = 4
 
-List a group table with teams, wins, draws, losses, goal difference and points. = 
-select group_name, team_name, count(matches.match_away_team_goals) as wins, losses_total, ties_total, goals_total, conceded_goals_total, (goals_total - conceded_goals_total) as goal_difference, (wins_total * 3 + ties_total) as points
+3. List a group table with teams, wins, draws, losses, goal difference and points. = 
+select group_name, team_name, teams.group_stage_score as points, teams.group_stage_score/3 as wins, teams.group_stage_losses as losses, ties_total as draws, (teams.group_stage_score/3 - teams.group_stage_losses) as goal_difference
 from teams
 inner join matches on teams.id = matches.match_home_team_id or teams.id = matches.match_away_team_id
 where group_name = 'A' and match_type = 'Group stage'
 group by team_name
 order by points desc, goal_difference desc;
 
-List the top-10 players sorted first by goals, then by assists = (OBS: I'm not sure if I understood the question correctly)
+4.List the top-10 players sorted first by goals, then by assists = (OBS: I'm not sure if I understood the question correctly)
 select player_first_name, player_last_name, player_goals, player_assists 
 from players
 order by player_goals desc, player_assists desc
 limit 10;
 
-List all players that are unavailable due to disciplinary reasons (i.e 2 yellow cards or 1 red card) = (OBS: no person has more than 1 yellow card, maybe!?)
+5.List all players that are unavailable due to disciplinary reasons (i.e 2 yellow cards or 1 red card) = (OBS: no person has more than 1 yellow card, maybe!?)
 select player_first_name, player_last_name, player_position, player_number, card_type
 from players
 inner join cards on players.id = cards.card_player_id
 where card_type = 'red' or card_type = 'yellow'
-group by player_first_name, player_last_name, player_position, player_number, card_type
+group by player_first_name
 having card_type = 'yellow' and count(card_type) >= 2 or card_type = 'red' and count(card_type) >= 1
 order by player_first_name, player_last_name;
 
-List a teams roster with players and coach, goals, assists, shots and disciplinary, matches played, matches started, minutes played. Number of clean sheets and save percentage for the goalkeepers.
-select distinct player_first_name, player_last_name, coach_first_name, coach_last_name, goals_total, player_assists
+6.List a teams roster with players and coach, goals, assists, shots and disciplinary, matches played, matches started, minutes played. Number of clean sheets and save percentage for the goalkeepers.
+select distinct abbreviation, player_first_name, player_last_name, coach_first_name, coach_last_name, goals_total, player_assists, player_goals
 , card_type, matches_played, matches_started, minutes_played, goals_total as clean_sheets
 , ((sum(match_away_team_shot) - conceded_goals_total) * 100)/(sum(match_away_team_shot)) as save_percentage_rounded
-, sum(match_home_team_shot) as shots_on_goal
+, sum(match_home_team_shot) as team_shots_on_goal
 from players
 inner join coaches on coaches.coach_team_id = players.team_id
 inner join teams t on coaches.coach_team_id = t.id
@@ -154,13 +154,20 @@ inner join matches m on t.id = m.match_home_team_id
 where coaches.coach_team_id = 1
 group by player_first_name;
 
-Detailed info for a finished game including teams, players, goals, disciplinary, substitutions, referee, venue, date. Every situation often includes one or more players, a time and sometimes additional info =
-select match_date, match_time, match_home_team_id, match_away_team_id, match_home_team_goals, match_away_team_goals, match_head_referee, match_location, player_first_name, player_last_name, player_position, player_number, card_type, goal_minute, goal_scorer_id, goal_assist_id, goal_match_id
+7.Detailed info for a finished game including teams, players, goals, disciplinary, substitutions, referee, venue, date. Every situation often includes one or more players, a time and sometimes additional info =
+select distinct matches.id as match_id,t.abbreviation ,p.player_first_name, p.player_last_name, match_home_team_id, match_away_team_id, match_home_team_goals, match_away_team_goals, match_date, match_time, card_type, p.minutes_played = 30 as substitute, r.referee_last_name, v.venue_name
 from matches
-inner join players on matches.match_home_team_id = players.team_id or matches.match_away_team_id = players.team_id
-inner join cards on players.id = cards.card_player_id
-inner join goals on players.id = goals.goal_scorer_id
-where match_date = '2023-08-05'
+inner join teams as home
+on home.id = matches.match_home_team_id
+inner join teams as away
+on away.id = matches.match_away_team_id
+inner join players p on home.id = p.team_id or away.id = p.team_id
+left join cards c on p.id = c.card_player_id
+inner join referees r on matches.match_head_referee = r.id
+inner join venues v on matches.match_location = v.id
+inner join teams t on p.team_id = t.id
+where matches.id = 1
+and p.minutes_played > 0;
 
 
 select *
@@ -173,16 +180,23 @@ left join goals on players.id = goals.goal_scorer_id
 where matches.id = 1
 
 
-Short info (teams, flags, abbreviations, score) for the same game as above. =
-
-
-
-List the playoff tree with team abbreviations and -flags, score (if any)/date and time if no result. = 
-select team_name, wins_total
+8.Short info (teams, flags, abbreviations, score) for the same game as above. =
+select abbreviation, flag, m.match_home_team_goals, m.match_away_team_goals, case when m.match_home_team_id = 1 then 'CHN' end as home_team, case when m.match_away_team_id = 2 then 'CUB' end as away_team
 from teams
-order by wins_total desc
-limit 3;
+inner join matches m on teams.id = m.match_home_team_id or teams.id = m.match_away_team_id
+where  m.id = 1
+and abbreviation = 'CUB' or abbreviation = 'CHN'
+group by abbreviation;
 
+
+9.List the playoff tree with team abbreviations and -flags, score (if any)/date and time if no result. = 
+select distinct matches.id, match_home_team_id, match_away_team_id, match_home_team_goals, match_away_team_goals, home.abbreviation as home_team, away.abbreviation as away_team, match_date, match_time, home.flag, away.flag
+from matches
+inner join teams as home
+on home.id = matches.match_home_team_id
+inner join teams as away
+on away.id = matches.match_away_team_id
+where match_type != 'Group stage';
 
 -- python code 
 
